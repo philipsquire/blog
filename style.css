@@ -51,3 +51,12 @@ table, th, td {
     border: 1px solid darkslategray;
 }
 
+#dumpster{
+    height: 25%;
+    width: 25%;
+}
+
+#disney{
+    height: 50%;
+    width: 50%;
+}
