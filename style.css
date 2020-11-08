@@ -15,7 +15,7 @@ nav{
     top: 20px;
     background-color: floralwhite;
     border: 2px solid darkslategray;
-    width: 5%;
+    width: 70px;
 }
 
 h1{
@@ -46,6 +46,7 @@ article:nth-of-type(2){
 #blog{
     border-top:1px dotted darkslategrey;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .service{
@@ -76,4 +77,10 @@ table, th, td {
 }
 figcaption{
     text-align: center;
+}
+
+@media (max-width: 400px) {
+    nav{
+        position: static;
+    }
 }
